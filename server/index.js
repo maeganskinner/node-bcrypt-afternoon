@@ -2,8 +2,8 @@ require('dotenv').config();
 const express = require('express');
 const session = require('express-session');
 const massive = require('massive');
-const authCtrl = require('./controllers/authController');
-const treasureCtrl = require('./controllers/treasureController')
+const authCtrl = require('./controller/authController');
+const treasureCtrl = require('./controller/treasureController')
 const auth = require('./middleware/authMiddleware');
 
 const PORT = 4000;

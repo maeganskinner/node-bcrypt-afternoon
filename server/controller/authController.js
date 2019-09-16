@@ -22,7 +22,7 @@ module.exports = {
     const foundUser = await req.app.get('db').get_user([username]);
     const user = foundUser[0];
     if (!user) {
-      return res.status(401).send('User  not found. Please register as a new user before logging in.');
+      return res.status(401).send('User  not found. Please register.');
     }
     const isAuthenticated = bcrypt.compareSync(password, user.hash);
     if (!isAuthenticated) {

@@ -20,7 +20,6 @@ export default class Container extends Component {
     }
   }
 
-  getDragonTreasure() {
     getDragonTreasure() {
       axios
         .get('/api/treasure/dragon')
