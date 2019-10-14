@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './Container.css';
-import Treasure from '../Treasure';
+//import Treasure from '../Treasure';
 
 export default class Container extends Component {
   constructor() {
@@ -123,4 +123,4 @@ export default class Container extends Component {
       </div>
     );
   }
-}
+

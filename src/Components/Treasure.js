@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import AddTreasure from './AddTreasure';
 
 export default function Treasure(props) {
@@ -11,4 +11,4 @@ export default function Treasure(props) {
       {treasure}
     </div>
   );
-}
+} */
